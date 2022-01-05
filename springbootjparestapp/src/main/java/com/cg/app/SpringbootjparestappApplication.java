@@ -9,7 +9,7 @@ public class SpringbootjparestappApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootjparestappApplication.class, args);
 		
-		System.out.println("hello");
+		
 	}
 
 }
