@@ -20,6 +20,8 @@ import com.cg.app.service.StudentService;
 @RestController
 public class StudentController {
 
+	
+	
 	@Autowired
 	private StudentService stService;
 	
@@ -39,7 +41,8 @@ public class StudentController {
 	@PostMapping("/saveStudent")
 	public ResponseEntity<Student> registerStudent(@RequestBody Student student) {
 		
-		
+	
+		System.out.println("hello");
 		//Student savedStudent= sdao.save(student);
 		//return savedStudent;
 		
